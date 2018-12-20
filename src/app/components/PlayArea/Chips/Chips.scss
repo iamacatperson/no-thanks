@@ -1,0 +1,23 @@
+.chips {
+
+	overflow: hidden;
+	padding: 10px 2px;
+
+	&__list {
+		padding: 2px;
+		margin: 0;
+	}
+
+	&__chip {
+		background: #f45f42;
+		border-radius: 30px;
+		width: 15px;
+		height: 15px;
+		list-style: none;
+		float: left;
+		margin-right: -3px;
+		box-shadow: -1px 1px 3px #114727;
+		border: 1px solid #a33c28;
+	}
+
+}

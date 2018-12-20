@@ -1,0 +1,70 @@
+.playArea {
+
+	height: 100vh;
+	background: #0e8c40;
+	padding: 15px;
+
+	&__card-area {
+		width: 35%;
+		position: relative;
+	}
+
+	&__player-area {
+		width: 65%;
+	}
+
+	&__playersContainer {
+		overflow: hidden;
+	}
+
+	&__chips {
+		padding: 0;
+		margin: 0 auto;
+		width: 320px;
+	}
+
+	&__messages {
+		color: #FFF;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	&__winner {
+		margin: 0 20px;
+	 	text-align: center;
+	 	color: #FFF;
+	 	font-size: 60px;
+	 	font-weight: bold;
+	 	text-transform: uppercase;
+	 	transform: skewY(-20deg);
+	 	border-top: 5px solid #FFF;
+	 	border-bottom: 5px solid #FFF;
+	 	padding: 20px 0;
+	 	text-shadow: 1px 5px 2px #08652d;
+	}
+
+	&__cards-remaining {
+		right: 20px;
+		text-align: center;
+		color: #FFF;
+	}
+
+	&__button-group {
+
+		width: 430px;
+		margin: 0 auto;
+
+		button {
+			background: #EEE;
+			padding: 15px;
+			font-size: 16px;
+			border-radius: 5px;
+			cursor: pointer;
+			font-weight: bold;
+			width: 200px;
+		}
+
+	}
+
+}

@@ -1,0 +1,56 @@
+.player {
+
+	padding: 20px;
+	background: #169c4b;
+	border: 1px solid #169c4b;
+	border-radius: 5px;
+	margin-bottom: 30px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	h2 {
+		margin: 0 0 20px 0;
+		padding: 0;
+		color: #FFF;
+	}
+
+	&__card {
+		border: 1px solid #66645a;
+		padding: 15px 10px;
+		font-weight: bold;
+		min-width: 20px;
+		text-align: center;
+		background: url(../../../../img/bg-off-white.jpg);
+		border-radius: 5px;
+		box-shadow: -1px 1px 3px #114727;
+	}
+
+	&__cards {
+		
+		overflow: hidden;
+		margin: auto auto 0 0;
+		padding-left: 0;
+		padding: 5px;
+
+		li {
+			float: left;
+			margin-right: 20px;
+			list-style: none;
+		}
+
+		&-sticky {
+			
+			margin-right: -8px !important;
+			
+		}
+	}
+
+	&--active {
+		background: #08652d;
+		border: 1px solid #FFF;
+		border-radius: 5px;
+	}
+
+}
